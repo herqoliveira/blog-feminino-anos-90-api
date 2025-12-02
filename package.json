@@ -1,11 +1,14 @@
 {
-  "name": "blog-api",
+  "name": "blog-anos-90-api",
   "version": "1.0.0",
+  "description": "API para o blog feminino anos 90",
   "main": "server.js",
+  "type": "commonjs",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
   }
 }
