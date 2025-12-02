@@ -48,7 +48,6 @@ app.post("/posts", (req, res) => {
     res.json({ status: "ok", post: novoPost });
 });
 
-// Iniciar servidor
-app.listen(3000, () => {
-    console.log("Servidor da API está rodando!");
-});
+
+const port = process.env.PORT || 3000;
+app.listen(port, () => console.log("Server ON na porta " + port));
