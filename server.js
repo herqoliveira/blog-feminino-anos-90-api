@@ -38,7 +38,7 @@ app.post("/posts", (req, res) => {
         id: Date.now(),
         titulo: req.body.titulo,
         conteudo: req.body.conteudo,
-        autor: "Jéssica",
+        autor: "Clarisse",
         data: new Date().toLocaleString()
     };
 
